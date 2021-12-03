@@ -13,7 +13,10 @@ Write a program in java such that given a bill, it finds the net payable amount.
 User interface is not required. 
 
 ## **Solutions**
-The discount rate defined for the user card was taken, a total value was found by making transactions for each product in the basket. Then, as a result of the calculation at the end of the invoice, a $5 discount was applied for each $200 on the invoice.
+The discount rate defined for the user card was taken, a total value was found by making transactions for each product in the cart. Then, as a result of the calculation at the end of the invoice, a $5 discount was applied for each $200 on the invoice.
+
+If there is a phone in the cart, first the percentage of the other products in the cart is calculated according to the credit card the user has. The result is added to the amount of the phone. 5$ is deducted for every 200$ amount. And the amount without discount, the final amount, and the discount amount are written on the invoice.
+In addition, there is only a single percentage discount on the invoice.
 
 !! The user's card type does not give a discount for the phone. 
 ------------------------------------------------------------------
